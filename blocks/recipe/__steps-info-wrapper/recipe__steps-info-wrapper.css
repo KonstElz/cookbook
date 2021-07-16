@@ -1,0 +1,8 @@
+.recipe__steps-info-wrapper {
+  max-width: 728px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  margin-bottom: 20px;
+}

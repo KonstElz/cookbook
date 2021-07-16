@@ -1,0 +1,16 @@
+.element {
+  width: 336px;
+  height: 280px;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  background-color: white;
+}
+
+.element:nth-of-type(5n) {
+  margin-right: 0;
+}
+
+.element:last-of-type {
+  margin-right: 0;
+}

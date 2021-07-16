@@ -1,0 +1,15 @@
+.breadcrumbs__item {
+  list-style-type: none;
+}
+
+.breadcrumbs__item::before {
+  content: "→";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.breadcrumbs__item:first-child::before {
+  padding-left: 0;
+  margin-left: 0;
+  content: "";
+}

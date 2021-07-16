@@ -1,0 +1,7 @@
+.recipe__step {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  margin-right: 50px;
+  /*margin-bottom: 50px;*/
+}
