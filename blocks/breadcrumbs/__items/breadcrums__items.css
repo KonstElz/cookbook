@@ -1,6 +1,7 @@
 .breadcrumbs__items {
   font-size: 14px;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 36px;
 }

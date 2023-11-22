@@ -3,3 +3,10 @@
   flex-direction: row;
   padding-left: 0;
 }
+
+@media (max-width: 1024px) {
+  .header__nav-items {
+    visibility: hidden;
+    display: none;
+  }
+}

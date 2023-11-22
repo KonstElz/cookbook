@@ -1,5 +1,4 @@
 .category {
-  width: 1130px;
   font-size: 18px;
   display: flex;
   grid-template-rows: repeat(5, auto);

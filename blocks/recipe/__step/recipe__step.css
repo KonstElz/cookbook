@@ -1,7 +1,13 @@
 .recipe__step {
-  display: flex;
-  flex-direction: row;
-  /*justify-content: center;*/
-  margin-right: 50px;
-  /*margin-bottom: 50px;*/
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 480px) {
+  .recipe__step {
+    display: flex;
+    flex-direction: column;
+  }
 }

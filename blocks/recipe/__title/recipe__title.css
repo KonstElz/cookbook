@@ -1,6 +1,6 @@
 .recipe__title {
   font-size: 42px;
   font-weight: 500;
-  width: 468px;
+  max-width: 468px;
   margin: 0;
 }

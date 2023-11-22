@@ -2,3 +2,9 @@
   max-width: 970px;
   margin-right: 50px;
 }
+
+@media (max-width: 970px) {
+  .recipe {
+    margin-right: 0px;
+  }
+}

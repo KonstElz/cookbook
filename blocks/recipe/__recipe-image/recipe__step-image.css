@@ -1,5 +1,10 @@
 .recipe__step-image {
-  width: 468px;
+  width: 100%;
   object-fit: cover;
-  margin-right: 20px;
+}
+
+@media (max-eidth: 970px) {
+  .recipe__step-image {
+    width: 100%;
+  }
 }

@@ -2,8 +2,9 @@
   width: 300px;
 }
 
-@media screen and (max-width: 1500px) {
+@media (max-width: 1024px) {
   .aside {
-    max-width: 160px;
+    visibility: hidden;
+    display: none;
   }
 }
